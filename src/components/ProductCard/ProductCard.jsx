@@ -28,7 +28,7 @@ const ProductCard = ({ ...item }) => {
   };
 
   const handleAddToCart = () => {
-    dispatch(addItemToCart(item.id));
+    dispatch(addItemToCart(item));
     toast.success(`${item?.title?.slice(0, 20)}is added to Cart!`, {
       autoClose: 1500,
     });
