@@ -1,0 +1,26 @@
+@import "./colors.scss";
+@import "./size.scss";
+
+body {
+  font-family: "Sofadi One", sans-serif;
+}
+
+@media (max-width: $media-md) {
+  h3,
+  h4,
+  h5,
+  p,
+  h2 {
+    text-align: center;
+  }
+
+  .navbar-light {
+    .navbar-toggler {
+      border-color: $white !important;
+    }
+
+    .navbar-toggle-icon {
+      background-color: $white;
+    }
+  }
+}
