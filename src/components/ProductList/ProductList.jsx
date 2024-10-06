@@ -147,5 +147,4 @@ const ProductList = () => {
     </div>
   );
 };
-// {error && <h2>{error}</h2>}
 export default ProductList;
